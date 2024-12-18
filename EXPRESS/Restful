@@ -1,0 +1,5 @@
+Rest ful follow server and client architecture.
+Always respect all http methods.(we have to use all get, post, put, patch ,delete but not only get and post).
+
+res.json()----api
+es.send()==res.render()
