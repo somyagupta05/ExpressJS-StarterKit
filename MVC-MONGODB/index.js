@@ -7,7 +7,7 @@ const { longReqRes } = require("./middleware");
 
 const app = express();
 const PORT = 8000;
-// connection
+// connection mongodb
 connectMongoDb("mongodb://127.0.0.1:27017/youtube-app-1").then(() =>
   console.log("mongodb connected")
 );
