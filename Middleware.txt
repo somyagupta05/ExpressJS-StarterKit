@@ -1,0 +1,15 @@
+           req
+user------------------------>function(app.get/users)
+|          get/users            |
+<----------------------------->|
+
+
+
+with middleware
+
+user-------->middleware       function(app.get/users)
+<-------------\
+
+middleware will check if the user is not correct or it is threat then it middleware will resend the request which came from user to the the user back only without letting it go to the the function(app.get).
+1. Middleware is a function which executes on evry response and request.
+2. There can be multiple middleware in between.

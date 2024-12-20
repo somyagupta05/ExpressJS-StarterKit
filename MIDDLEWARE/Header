@@ -1,0 +1,35 @@
+Request Headers:
+Jab ek client (browser ya app) server ko request bhejta hai, to uske saath kuch additional information headers ke form mein hoti hai, jaise:
+
+Content-Type: Request body ka type batata hai (e.g., application/json).
+Authorization: Authentication ke liye token ya credentials provide karta hai.
+Accept: Server se kis type ka response chahiye (e.g., text/html, application/json).
+
+<!-- ......................................... -->
+
+Response Headers:
+Jab server response bhejta hai, to kuch headers ke saath response deta hai, jaise:
+
+Content-Type: Response ka type (e.g., application/json).
+Cache-Control: Response ko cache karne ke rules.
+Set-Cookie: Client ke browser mein cookies set karne ke liye.
+
+<!-- ....................................... -->
+
+Headers ko read kaise karte hain?
+Frontend (JavaScript):
+Agar aapko headers ko ek HTTP request ke response mein read karna hai, to aap fetch() API ka use kar sakte hain.
+
+Backend (Node.js - Express):
+Aap request ke headers ko backend mein req.headers object ke through access kar sakte hain:
+
+<!-- ........................................ -->
+
+What is a Custom Header?
+A custom header is a non-standard header defined by the developer to send additional, application-specific metadata. These headers are not part of the predefined set of HTTP headers and typically start with X- (though this is not mandatory anymore).
+
+Examples of Custom Headers:
+X-Custom-Header: To send app-specific data.
+X-Client-ID: To identify a client making the request.
+X-Trace-ID: For debugging and tracking requests.
+Custom headers allow developers to extend HTTP communication for specific needs.
