@@ -6,5 +6,6 @@ const {
 } = require("../controllers/url");
 
 router.post("/", handleGenerateNewShortURL);
-router.get("/analytics", handleGenerateAnalytics);
+router.get("/analytics/:shortId", handleGenerateAnalytics); // Added :shortId parameter
+
 module.exports = router;
