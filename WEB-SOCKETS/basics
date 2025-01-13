@@ -1,0 +1,7 @@
+client sends request to server and server respond and then be close and similarly repeats.
+
+the problemis we have closed after we get response now we cannot connect again over same so this is the problem as communication is single communication as only client is able to connect and server can only give response.
+
+two user one server and you communicate througn server first person to server and then server to second person this is called polling as person every min ask user about message.
+
+websocket where you can communicate any number of times ,it is bidirectional.
