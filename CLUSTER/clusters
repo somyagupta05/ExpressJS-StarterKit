@@ -12,10 +12,13 @@ Handling Failures: If one chef takes a break (like a computer going down), the o
 Scaling Up: If your restaurant becomes more popular, you can hire more chefs to handle the increased number of orders. Similarly, in computing, you can add more servers to a cluster to handle more users or tasks.
 
 ...............................
+
 Why Use Clusters?
 Efficiency: Just like having multiple chefs speeds up food preparation, clusters can process more requests at the same time, improving performance.
 Reliability: If one chef can't work, the restaurant can still serve customers with the remaining chefs. In a computer cluster, if one server fails, others can take over the workload.
 Scalability: You can easily add more chefs to your restaurant to serve more customers. Similarly, clusters can be scaled by adding more servers to handle increased demand.
+
 ..................................
+
 Summary
 Using a cluster is like having a team of chefs in a restaurant. It allows for faster service, helps handle more orders, and ensures that the restaurant runs smoothly even if someone is unavailable. Clusters in computing provide similar benefits by improving efficiency, reliability, and scalability for applications and services.
