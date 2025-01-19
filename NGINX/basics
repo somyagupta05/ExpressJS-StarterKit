@@ -1,0 +1,3 @@
+fowrward proxy-- multiple clients send request to server thorugh vpn and server dont know about which client is sending the request.
+
+reverse proxy-- single client send request to multiple server thorough vpn ans server know which client is sending request as there is single client only.
